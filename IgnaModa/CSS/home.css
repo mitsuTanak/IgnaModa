@@ -3,31 +3,12 @@
 .header{
 
     width: 100%;
-    height: calc(100vh - 120px);
-    background-image: url('../img/Banner.png');
+    height: calc(60vh - 120px);
+    background-image: url('../../assets/banner.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-
-}
-
-.header .logo{
-
-    height: 100px;
-    display: block;
-    margin: auto;
-
-}
-
-.header .sub-texto{
-
-    margin-top: 10px;
-    text-align: center;
-    color: #ffffff;
-    text-transform: capitalize;
-    font-size: 35px;
-    font-weight: 300;
 
 }
 
