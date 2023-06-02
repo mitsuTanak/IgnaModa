@@ -41,6 +41,7 @@ body{
 
 .p-container{
 
+    margin-left: 50px;
     height: 500px;
     padding: 0 10px;
     display: flex;
@@ -157,9 +158,9 @@ body{
 }
 
 .collection img{
-    margin: 100px;
-    width: 80%;
-    height: 100%;
+    margin: 80px;
+    width: 70%;
+    height: 50%;
     object-fit: cover;
 }
 
