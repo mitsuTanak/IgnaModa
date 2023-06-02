@@ -41,6 +41,8 @@ body{
 
 .p-container{
 
+    margin-left: 50px;
+    height: 500px;
     padding: 0 10px;
     display: flex;
     overflow-x: auto;
@@ -143,6 +145,11 @@ body{
 
 
 .collection-container{
+
+    background-color: #eab5f8;
+
+    align-items: center;
+    
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -156,9 +163,9 @@ body{
 }
 
 .collection img{
-    margin: 100px;
-    width: 80%;
-    height: 100%;
+    margin: 80px;
+    width: 70%;
+    height: 50%;
     object-fit: cover;
 }
 
