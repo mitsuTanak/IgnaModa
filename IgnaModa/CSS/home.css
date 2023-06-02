@@ -1,4 +1,5 @@
 @import 'nav.css';
+@import 'footer.css';
 
 
 body{
@@ -149,7 +150,7 @@ body{
     background-color: #eab5f8;
 
     align-items: center;
-    
+
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
