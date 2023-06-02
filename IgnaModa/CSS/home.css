@@ -41,6 +41,7 @@ body{
 
 .p-container{
 
+    height: 500px;
     padding: 0 10px;
     display: flex;
     overflow-x: auto;
