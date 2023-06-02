@@ -124,6 +124,22 @@ main form input[type="submit"]:hover{
     background: #5952d4;
 }
 
+.bnt {
+    display: inline-block;
+    background: #824B91;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background 0.5s, color 0.3s, opacity 1s;
+    text-decoration: none;
+}
+
+
+.bnt:hover {
+    background: #5c3666;
+}
+
 .images{
     margin-top: 200px;
     position: absolute;
@@ -157,3 +173,4 @@ main form input[type="submit"]:hover{
         font-size: 0.8rem;
     }
 }
+

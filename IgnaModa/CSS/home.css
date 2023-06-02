@@ -1,6 +1,10 @@
 @import 'nav.css';
 
 
+body{
+    height: 300vh;
+}
+
 .header{
 
     width: 100%;
@@ -137,8 +141,9 @@
 
 /* -------------------------------------------------------------------- */
 
+
 .collection-container{
-    width: 80%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
@@ -169,6 +174,6 @@
 }
 
 .collection:nth-child(3){
-    grid-column: span 3;
+    grid-column: span 2;
     margin-bottom: 10px;
 }
