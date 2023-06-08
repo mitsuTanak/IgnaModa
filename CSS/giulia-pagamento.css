@@ -1,4 +1,4 @@
-@import 'nav.js';
+@import '../JavaS/nav.js';
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
@@ -84,8 +84,8 @@ body > main .content aside {
 }
 
 .barra-pesquisa{
-    width: 80%;
-    height: 40px;
+    width: 100%;
+    height: 19 px;
     padding: 10px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
