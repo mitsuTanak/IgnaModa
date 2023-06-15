@@ -1,14 +1,14 @@
 
- input {
-position: absolute;
-width: 351px;
-height: 56px;
-left: 139px;
-top: 168px;
+input {
+    position: absolute;
+    width: 351px;
+    height: 56px;
+    left: 139px;
+    top: 168px;
 
-background: #D9D9D9;
-border-radius: 14px;
- }
+    background: #D9D9D9;
+    border-radius: 14px;
+}
 
 .botão{
   
@@ -18,8 +18,9 @@ border-radius: 14px;
     left: 444px;
     top: 187px;
 
- }   
-  .vestido1 {
+}   
+
+.vestido1 {
 position: absolute;
 width: 271px;
 height: 445px;
@@ -27,14 +28,16 @@ left: 178px;
 top: 343px;
 
 background: url(saia_ANOUKI-removebg-preview.png);
-  }
+}
+
 .vestido2 {
 position: absolute;
 width: 271px;
 height: 328px;
 left: 583px;
 top: 402px;
-    }
+}
+
 .vestido3 {
 position: absolute;
 width: 252px;
@@ -42,14 +45,15 @@ height: 428px;
 left: 990px;
 top: 351px;
 }
+
 .vestido4 {
 position: absolute;
 width: 271px;
 height: 328px;
 left: 173px;
 top: 1050px;
-
 }
+
 .vestido5 {
 position: absolute;
 width: 271px;
