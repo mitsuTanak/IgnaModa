@@ -21,28 +21,29 @@
 
     <main>
 
-        <form action="" method="post">
+        <form action="https://api.sheetmonkey.io/form/tZTyP5J7ppfWreMvZJXZcf" method="post">
 
-            <label for="name"></label>
-                <span>Nome</span> 
-                <input type="text" id="name" name="name">
-            
-
+            <label for="name">Nome</label> 
+                <input type="text" id="name" name="name" placeholder="nome" required>
             <label for="email">E-Mail</label>
+
             <div class="input">
-                <input type="email" name="email" placeholder="e-mail" id="email">    
+                <input type="email" name="email" placeholder="e-mail" id="email" required>    
+
             </div>
 
             <label for="senha">Senha</label>
             <div class="input">
-                <input type="password" name="senha" placeholder="Password">
+
+                <input type="password" name="senha" placeholder="Password" required>
+
             </div>
 
-            
-            <a href="index.html" class="bnt">enviar</a> 
+            <input type="submit" value="Submit" />
 
         </form>
-        
+
+
         
         <div class="alternative">
             <span>OU</span>
