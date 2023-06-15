@@ -16,6 +16,10 @@ body{
     min-width: 100vw;
 }
 
+.images{
+    margin-bottom: 30px;
+}
+
 main{
     
     position: absolute;
