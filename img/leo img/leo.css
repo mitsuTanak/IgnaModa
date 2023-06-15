@@ -1,0 +1,214 @@
+.barar-pesquisa{
+    position: absolute;
+    width: 351px;
+    height: 56px;
+    left: 139px;
+    top: 168px;
+    
+    background: #D9D9D9;
+    border-radius: 14px;
+     }
+    
+    .botão{
+      
+        position: absolute;
+        width: 32px;
+        height: 32px;
+        left: 444px;
+        top: 187px;
+    
+     }   
+      .vestido1 {
+    position: absolute;
+    width: 271px;
+    height: 445px;
+    left: 178px;
+    top: 343px;
+    
+    background: url(saia_ANOUKI-removebg-preview.png);
+      }
+    .vestido2 {
+    position: absolute;
+    width: 271px;
+    height: 328px;
+    left: 583px;
+    top: 402px;
+        }
+    .vestido3 {
+    position: absolute;
+    width: 252px;
+    height: 428px;
+    left: 990px;
+    top: 351px;
+    }
+    .vestido4 {
+    position: absolute;
+    width: 271px;
+    height: 328px;
+    left: 173px;
+    top: 1050px;
+    
+    }
+    .vestido5 {
+    position: absolute;
+    width: 271px;
+    height: 328px;
+    left: 584px;
+    top: 1074px;
+    }
+    .vestido6 {
+    position: absolute;
+    width: 271px;
+    height: 328px;
+    left: 1004px;
+    top: 1074px;
+    }
+    
+    h1 {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 235px;
+    top: 840px;
+    
+    } 
+    
+    
+.dois {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 673px;
+    top: 844px;
+    
+} 
+    
+    
+.tres {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 1035px;
+    top: 844px;
+    
+} 
+    
+.quatro {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 253px;
+    top: 1429px;
+    
+} 
+    
+    
+.cinco {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 673px;
+    top: 1434px;
+} 
+    
+    
+.seis {
+    position: absolute;
+    width: 200px;
+    height: 80px;
+    left: 1062px;
+    top: 1430px;
+    
+} 
+
+.quantidade1 {
+    width: 50px;
+    font-size: 20px;
+    margin-left: 280px;
+    margin-top: 815px;
+}
+.quantidade2 {
+    width: 50px;
+    font-size: 20px;
+    margin-left: 370px;
+    margin-top: 815px;
+}
+.quantidade3 {
+    width: 50px;
+    font-size: 20px;
+    margin-left: 305px;
+    margin-top: 815px;
+}
+.quantidade4 {
+    width: 50px;
+    font-size: 20px;
+    margin-left: 290px;
+    margin-top: 560px;
+}
+.quantidade5 {
+    width: 50px;
+    font-size: 20px;
+    margin-left: 360px;
+    margin-top: 560px;
+}
+.quantidade6 {
+    width: 50px;
+    font-size: 20px;
+    margin-left: 315px;
+    margin-top: 560px;
+}
+
+.lixeira1 {
+position: absolute;
+margin-left:400px ;
+margin-top:815px ;
+}
+
+.lixeira2 {
+position:absolute;
+margin-left: 840px;
+margin-top: 815px;
+}
+.lixeira3 {
+position:absolute;
+margin-left: 1215px;
+margin-top:815px ;
+}
+.lixeira4 {
+position:absolute;
+margin-left: 400px;
+margin-top: 1400px;
+}
+.lixeira5 {
+position:absolute;
+margin-left: 840px;
+margin-top: 1400px;
+}
+.lixeira6 {
+position:absolute;
+margin-left: 1215px;
+margin-top: 1400px;
+}
+.botãocarrinho {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 39px;
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 10px;
+gap: 10px;
+
+position: absolute;
+width: 356px;
+height: 59px;
+margin-left: 1050px;
+margin-top: 200px;
+
+
+background: #D0A7EA;
+border-radius: 15px;
+}
