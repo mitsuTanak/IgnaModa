@@ -1,4 +1,4 @@
-@import '../JavaS/nav.js';
+@import url(nav.css);
 
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
@@ -50,97 +50,6 @@ body > main .content section {
 
 body > main .content aside {
   min-width: 250px;
-}
-
-.navbar{
-    position: sticky;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #f5f5f5;
-    z-index: 9;
-}
-
-.nav{
-    padding: 15px 10vw;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo{
-    height: 60px;
-    width: 120px;
-    padding-top: 15px;
-}
-
-.nav-itens{
-    display: flex;
-    align-items: center;
-}
-
-.search{
-    width: 500px;
-    display: flex;
-}
-
-.barra-pesquisa{
-    width: 100%;
-    height: 19 px;
-    padding: 10px;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    border: 1px solid #d1d1d1;
-    text-transform: capitalize;
-    background: none;
-    color: #a9a9a9;
-    outline: none;
-}
-
-.pesquisar{
-    width: 20%;
-    height: 40px;
-    border: 10px 20px;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    background: #aaaaaa;
-    color: #fff;
-    text-transform: capitalize;
-    font-size: 15px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-.pesquisar img{
-    height: 40px;
-    width: 40px;
-}
-
-.barar-pesquisa::placeholder{
-    color: #a9a9a9;
-}
-
-.nav-itens a{
-    margin-left: 20px;
-}
-
-.nav-itens a img{
-    width: 30px;
-}
-
-.botao {
-    background-color: grey;
-    border: none;
-    border-radius: 4px;
-    color: white;
-    padding: 5px 10px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 10px;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
 }
 
 .botao:hover {
