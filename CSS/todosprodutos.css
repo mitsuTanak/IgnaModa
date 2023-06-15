@@ -233,6 +233,15 @@ p {
     margin: 70px 0;
 }
 
+.small-img-row {
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col {
+flex-basis: 24%;
+cursor: pointer;
+}
+
 .col-3 {
     flex-basis: 30%;
     min-width: 250px;
@@ -383,22 +392,6 @@ small {
         transition: max-height 0.5s;
     }
 
-nav ul li {
-    display: block;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-
-nav ul li a{
-    color: #fff;
-
-}
-
-.menu-icon {
-    display:block;
-    cursor: pointer;
-}
 
 }
 
@@ -406,9 +399,9 @@ nav ul li a{
     .row {
         text-align: center;
     }
-        .col-2, .col-3, .col-4{
-            flex-basis: 100%;
-        }
+    .col-2, .col-3, .col-4{
+        flex-basis: 100%;
+    }
 
 }
 
@@ -454,6 +447,23 @@ select:focus {
     background: #60386b;
     color: #fff;
 }
+nav ul li {
+    display: block;
+    margin-right: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+nav ul li a{
+    color: #fff;
+
+}
+
+.menu-icon {
+    display:block;
+    cursor: pointer;
+}
+
 
 
 /*__________________________________________________________________________________________*/ /* Footer*/
