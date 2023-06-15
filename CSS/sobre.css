@@ -1,5 +1,7 @@
 body{
   height: auto;
+  background: #F1E7F6;
+
 }
 
 .fala {
@@ -12,13 +14,13 @@ body{
 }
 
 .somos {
-  color: #B98AE7;
+  color: #60386b;
   text-align: center;
   margin-top: 25px;
 }
 
 .sobre {
-  color: black;
+  color: #60386b;
   line-height: 1.5;
   padding: 25px;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -34,10 +36,10 @@ body{
 }
 
 .equipe-h2 {
-  border-top: 1px solid #B98AE7;
+  border-top: 1px solid #60386b;
   padding-top: 15px;
   text-align: center;
-  color: #B98AE7;
+  color: #60386b;
 }
 
 /* Estilo das seção "Equipe"*/
@@ -59,11 +61,12 @@ body{
   height: 130px;
   border-radius: 50%;
   object-fit: cover;
-  border: 1px solid #333;
+  border: 1px solid #60386b;
 }
 
 .membro h3 {
   margin-top: 10px;
+  
 }
 
 .membro p {
