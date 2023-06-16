@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #F1E7F6;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.images{
+    margin-bottom: 30px;
+}
+
+main{
+    
+    position: absolute;
+    width: 595px;
+    height: 25px;
+    left: calc(50% - 593px/2 - 0.5px);
+    top: 500px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main h1{
+    color: #8880FE;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+main .social-media{
+    display: flex;
+    align-content: center;
+}
+
+main .social-media a{
+    text-decoration: none;
+}
+
+main .social-media img{
+    margin-top: 10px;
+    width: 25px;
+    margin-left: 3rem;
+}
+
+main .social-media a:first-child img{
+    margin-left: 0;
+}
+
+main .alternative{
+    margin-top: 0.5rem;
+}
+
+main .alternative span{
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.55);
+    position: relative;
+}
+
+main .alternative span::before, main .alternative span::after{
+    position: absolute;
+    content: '';
+    height: 1px;
+    width: 100px;
+    bottom: 50%;
+    right: 50px;
+    background: rgba(0, 0, 0, 0.341);
+}
+
+main .alternative span::after{
+    left: 50px;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main form label{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span{
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+}
+
+main form input{
+    background: #824B91;
+    width: 350px;
+    height: 35px;
+    padding: 0 0.5rem;
+    margin-top: 0.8rem;
+    outline: none;
+    color: white;
+    font-size: 0.9rem;
+    border: 1px solid #d7c4e0;
+    border-radius: 5px;
+}
+
+main form input[type="submit"] {
+    cursor: pointer;
+    width: 50%;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 32px;
+    color: white;
+    font-size: 0.8rem;
+    transition: all .3 ease-in-out;
+}
+
+main form input[type="submit"]:hover{
+    background: #5952d4;
+}
+
+.bnt {
+    display: inline-block;
+    background: #824B91;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0px;
+    border-radius: 30px;
+    transition: background 0.5s, color 0.3s, opacity 1s;
+    text-decoration: none;
+}
+
+
+.bnt:hover {
+    background: #5c3666;
+}
+
+.images{
+    margin-top: 200px;
+    position: absolute;
+    width: 395px;
+    height: 225px;
+    left: calc(50% - 392px/2);
+    bottom: 550px;
+}
+
+
+@media only screen and (min-width: 900px) and (max-width: 1200px) {
+    section.images img{
+        width: 110%;
+    }
+
+    section.images .circle{
+        clip-path: circle(35% at right 80%);
+    }
+}
+
+@media only screen and (max-width: 450px){
+    main h1{
+        font-size: 1rem;
+    }
+
+    main .alternative span{
+        font-size: 0.8rem;
+    }
+
+    main form label span, main form input[type="submit"] {
+        font-size: 0.8rem;
+    }
+}
+
