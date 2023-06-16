@@ -406,6 +406,7 @@ select:focus {
     text-align: center; /* Centraliza na Horizontal */
     line-height: 40px; /* Centraliza na Vertical */
     cursor: pointer;
+
 }
 
 .page-btn span:hover {
