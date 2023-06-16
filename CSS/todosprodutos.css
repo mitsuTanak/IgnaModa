@@ -384,6 +384,13 @@ small {
     filter: grayscale(0%);
 }
 
+.teste {
+   
+    border: none;
+    background: #CCABEC;
+   
+}
+
 
 @media screen and (max-width: 800px) {
     nav ul{
