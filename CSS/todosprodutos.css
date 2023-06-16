@@ -340,7 +340,11 @@ small {
 
 .col-5 img:hover{
     filter: grayscale(0%);
+
 }
+
+
+
 
 @media screen and (max-width: 800px) {
     nav ul{
