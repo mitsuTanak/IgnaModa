@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+@import 'nav.js';
 
 * {
     margin: 0;
@@ -45,7 +45,7 @@ body{
 
 
 .search{
-    width: 500px;
+    width: 800px;
     display: flex;
 }
 
@@ -93,48 +93,6 @@ body{
 .nav-itens a img{
     width: 30px;
 }
-
-.div{   
-    font-family: "Poppins", sans-serif;
-}
-
-
-
-.row{
-  justify-content: space-between;
-  margin: 100px auto 50px;
-
-}
-
-select{
-  border: 1px solid #F1E7F6;
-  padding: 5px;
-}
-
-select:focus{
-  outline: none;
-}
-
-.page-btn{
-  margin: 0 auto 80px;
-}
-.page-btn span{
-  display: inline-block;
-  border: 1px solid purple;
-  margin-left: 10px;
-  width: 40px;
-  height: 40px;
-  text-align: center;
-  line-height: 40px;
-  cursor: pointer;
-}
-
-.page-btn span:hover{
-  background: purple;
-  color: #fff;
-}
-  
-
 
 
 /*____________________________________________________________________________________*/
@@ -383,14 +341,6 @@ small {
 .col-5 img:hover{
     filter: grayscale(0%);
 }
-
-.teste {
-   
-    border: none;
-    background: #CCABEC;
-   
-}
-
 
 @media screen and (max-width: 800px) {
     nav ul{
