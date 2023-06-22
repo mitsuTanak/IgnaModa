@@ -38,20 +38,88 @@ body{
     align-items: center;
 }
 
+/*------------------------------------------------------------*/
 
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-2 {
+  padding: 30px;
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.col-2 img {
+  max-width: 100%;
+  padding: 50px 0;
+}
+
+.col-2 h1 {
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+
+
+/*------------------------------------------------------------*/
+
+.single-product {
+  margin-top: 50px;
+}
+
+.single-product .col-2 img {
+  padding: 0;
+}
+
+.single-product .col-2 {
+  padding: 20px;
+}
+
+.single-product h4 {
+  margin: 20px 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.single-product select {
+  display: block;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.single-product input {
+  width: 50px;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 20px;
+  margin-right: 10px;
+  border: 1px solid purple;
+}
+
+input:focus {
+  outline: none;
+}
+
+.small-img-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
 
 .search{
     width: 500px;
     display: flex;
 }
 
-.thumb {
-  position: absolute;
-  left: 50%;
-  bottom: 20px;
-  transform: rotateX('-50');
-  display: flex;
-}
+
 
 .thumb li {
 list-style: none;
@@ -225,7 +293,7 @@ font-weight: normal;
 
 
 /* ______________________________________________________________________________ */
-/* Pagamento do produto detalhado (Página pagamentos) */
+/* Footer */
 
 .cart-page {
     margin: 80px auto;

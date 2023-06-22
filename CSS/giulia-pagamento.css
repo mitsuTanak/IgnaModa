@@ -298,7 +298,7 @@ aside .box footer {
   font-size: 18px;
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex;
+  display: flex;  
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -308,7 +308,7 @@ aside > button {
   border: 0;
   padding: 15px 0;
   color: white;
-  background: #50a6e8;
+  background: #935fa1;
   display: block;
   width: 100%;
   text-transform: uppercase;
@@ -317,7 +317,7 @@ aside > button {
 }
 
 aside > button:hover {
-  background:#0788eb;
+  background:#c686d7;
 }
  
 /* Formas de pagamento */
@@ -351,3 +351,93 @@ aside > button:hover {
   .iconify {
     padding: 0 10px;
   }
+
+  footer{
+    position: relative;
+    width: 100%;
+    padding: 40px 10vw;
+    padding-bottom: 80px;
+    background: #383838;
+}
+
+.footer-content{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.footer-content .logo{
+    height: 320px;
+    width: 360px;
+}
+
+.footer-ul-container{
+    width: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category{
+    width: 200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    list-style: none;
+}
+
+.category-title{
+    grid-column: span 2;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.category .footer-link{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-link:hover{
+    color: #fff;
+}
+
+
+.footer-title, .info{
+    color: rgba(255, 255, 255, 0.75);
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.footer-title{
+    margin-top: 80px;
+    color: #fff;
+}
+
+.footer-social-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.social-link:nth-child(1){
+    margin-left: 0;
+}
+
+.footer-credit{
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+}
