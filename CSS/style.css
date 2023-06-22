@@ -170,6 +170,7 @@ nav ul li {
     margin-bottom: 10px;
 }
 
+Updated upstream
 nav ul li a{
     color: #fff;
 
@@ -419,10 +420,9 @@ h1 {
 /* @media screen and (max-width: 800px) {
     nav ul{
         position: absolute;
-        top: 70px;
         left: 0;
         background: #333;
-        width: 100%;
+        width: 97.75%;
         overflow: hidden;
         transition: max-height 0.5s;
     }
