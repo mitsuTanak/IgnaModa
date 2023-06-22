@@ -97,13 +97,17 @@ body{
 
 /*____________________________________________________________________________________*/
 
+li{
+    list-style-type: none;
+}
+
 
 nav ul{
     display: inline-block;
     list-style-type: none;
 }
 
- nav ul li{
+nav ul li{
     display: inline-block;
     margin-right: 20px;
 }
