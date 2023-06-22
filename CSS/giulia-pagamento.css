@@ -287,6 +287,11 @@ aside .box .info button {
   font-size: 16px;
 }
 
+button:hover {
+  cursor: pointer;
+  
+}
+
 aside .box footer {
   padding: 15px 20px;
   background: #ddd;
@@ -312,7 +317,7 @@ aside > button {
 }
 
 aside > button:hover {
-  background:#50a6e8;
+  background:#0788eb;
 }
  
 /* Formas de pagamento */
