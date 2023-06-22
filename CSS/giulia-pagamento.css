@@ -12,6 +12,10 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+h4 {
+  color: #000;
+}
+
 body > header {
   background: #111;
   color: white;
@@ -107,6 +111,7 @@ table tbody tr td {
 }
 
 .cropped .info .name {
+  color: #000;
   font-size: 20px;
   margin-bottom: 10px;
 }
@@ -136,6 +141,7 @@ table tbody tr td {
   }
  
   .saia .info .name {
+    color: #000;
     font-size: 20px;
     margin-bottom: 10px;
   }
@@ -165,6 +171,7 @@ table tbody tr td {
   }
  
   .calca .info .name {
+    color: #000;
     font-size: 20px;
     margin-bottom: 10px;
   }
