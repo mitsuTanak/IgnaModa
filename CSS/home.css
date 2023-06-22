@@ -232,9 +232,37 @@ font-weight: normal;
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
+    .search{
+        width: auto;
+    }
+
+    .header{
+        width: 50%;
+    }
+
+    .nav{
+
+        position: absolute;
+        left: 0;
+        background: #333;
+        width: 97.75%;
+        overflow: hidden;
+        transition: max-height 0.5s;
+    }
+
     .p-container{
-        flex-direction: column;
+
         margin-top: auto;
     }
+
+    .collection-container{
+        margin-left: 15px;
+        width: 95%;
+    }
+
+    .row{
+        flex-direction: column;
+    }
+
 }
