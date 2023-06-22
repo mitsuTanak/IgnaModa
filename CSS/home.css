@@ -264,13 +264,5 @@ font-weight: normal;
     .row{
         flex-direction: column;
     }
-    /* nav ul{
-        position: absolute;
-        top: 70px;
-        left: 0;
-        background: #333;
-        width: 100%;
-        overflow: hidden;
-        transition: max-height 0.5s;
-    } */
+
 }
