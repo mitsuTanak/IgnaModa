@@ -480,12 +480,13 @@ footer{
 
 
 @media screen and (max-width: 800px) {
-    nav ul{
+
+    .nav{
+
         position: absolute;
-        top: 70px;
         left: 0;
         background: #333;
-        width: 100%;
+        width: 97.75%;
         overflow: hidden;
         transition: max-height 0.5s;
     }
