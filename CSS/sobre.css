@@ -1,0 +1,74 @@
+body{
+  height: auto;
+  background: #F1E7F6;
+
+}
+
+.fala {
+  margin: 0;
+  padding: 0;
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 0 20px;
+  text-align: center;
+}
+
+.somos {
+  color: #60386b;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.sobre {
+  color: #60386b;
+  line-height: 1.5;
+  padding: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* ______________________________________________________________________________ */
+/* Equipe de desenvolvimento (Página Sobre)*/
+
+.container-equipe {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.equipe-h2 {
+  border-top: 1px solid #60386b;
+  padding-top: 15px;
+  text-align: center;
+  color: #60386b;
+}
+
+/* Estilo das seção "Equipe"*/
+.equipe {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.membro {
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+}
+
+.membro img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 1px solid #60386b;
+}
+
+.membro h3 {
+  margin-top: 10px;
+  
+}
+
+.membro p {
+  font-size: 14px;
+}
