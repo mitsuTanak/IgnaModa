@@ -20,6 +20,7 @@ body{
 }
 
 .sobre {
+  margin: 90px;
   color: #60386b;
   line-height: 1.5;
   padding: 25px;
@@ -72,3 +73,11 @@ body{
 .membro p {
   font-size: 14px;
 }
+
+.title {
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+  }
